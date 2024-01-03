@@ -9,7 +9,7 @@
 
 🧰 Local setup instructions and the `requirements.txt` file are included in each project, if you'd like to try any for yourself. 
 
-🏁 [Completed](./certificate.pdf) on Feb 9, 2023.
+🏁 [Completed](./certificate.pdf) on Jan 3, 2024.
 
 👤 If anyone needs help with the course, please feel free to contact me on [**Telegram**](https://t.me/hschickdevs).
 
