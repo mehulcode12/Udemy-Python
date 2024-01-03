@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Roboto Mono Font Embed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome - Using CDN kit -->
+    <script src="https://kit.fontawesome.com/c074be9557.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./static/css/styles.css" rel="stylesheet">
+
+    <title>FinWeek - Home</title>
+  </head>
+  <body>
+    <section class="roboto">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="navbar-custom">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">FinWeek - Weekly Financial News</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Weekly News
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Stocks</a></li>
+                    <li><a class="dropdown-item" href="#">Crypto</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Market Sector</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Profile
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Subscriptions</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Support</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <img class="avatar" src="./static/img/avatar_placeholder.png" alt="Avatar IMG">
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </section>
+    
+    <div class="container-fluid row roboto intro" align="center">
+        <h2><i>Browse this week's news by category...</i></h2>
+        <div class="container-fluid row">  <!-- Contains the links to the various news categories -->
+            <div class="col-lg-4 category-btn-row"> <!-- lg-6 specifies that the column will be 6 units on a large viewport -->
+                <button type="button" class="btn btn-dark category-btn"><i class="fa-solid fa-chart-column fa-9x"></i></i><br>Stocks</button>
+            </div>
+            <div class="col-lg-4 category-btn-row">
+                <button type="button" class="btn btn-dark category-btn"><i class="fa-brands fa-bitcoin fa-9x"></i><br>Crypto</button>
+            </div>
+            <div class="col-lg-4 category-btn-row">
+                <button type="button" class="btn btn-dark category-btn"><i class="fa-solid fa-industry fa-9x"></i><br>Market Sector</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+    BACKEND DEV RESOURCES:
+    Crypto News API: https://cryptopanic.com/developers/api/
+    Finnhub Market News: https://finnhub.io/docs/api/market-news
+    -->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
