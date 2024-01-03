@@ -11,10 +11,6 @@
 
 🏁 [Completed](./certificate.pdf) on Jan 3, 2024.
 
-👤 If anyone needs help with the course, please feel free to contact me on [**Telegram**](https://t.me/hschickdevs).
-
-🚨 While this repository's filesystem contains the project files that I completed for **all** 100 days of the course, below are the links the projects that were the **_most interesting/signifigant_** to me throughout the course:
-
 > All projects require Python `version >= 3.9` and the packages in their corresponding package requirements to run.
 ___
 
